@@ -21,8 +21,7 @@ jobs:
       languages: |
         - python
       mode: pr
-      openapi_docs: |
-        - ${{ secrets.OPENAPI_DOC }}
+      openapi_doc_location: ${{ secrets.OPENAPI_DOC }}
       speakeasy_version: latest
     secrets:
       github_access_token: ${{ secrets.GITHUB_TOKEN }}
