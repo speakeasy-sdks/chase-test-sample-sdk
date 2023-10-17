@@ -21,8 +21,8 @@ jobs:
       languages: |
         - python
       mode: pr
-      openapi_doc_location: ${{ secrets.OPENAPI_DOC }}
       speakeasy_version: latest
     secrets:
+      openapi_doc_location: ${{ secrets.OPENAPI_DOC }}
       github_access_token: ${{ secrets.GITHUB_TOKEN }}
       speakeasy_api_key: ${{ secrets.SPEAKEASY_API_KEY }} #Get an API Key from your workspace at https://app.speakeasyapi.dev/
